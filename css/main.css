@@ -72,11 +72,191 @@ ul {
   max-width: 12.1rem;
   padding: 0.6rem 0.4rem;
 }
+.tag.blug-tag .icon {
+  background-color: rgba(63, 103, 186, 0.15);
+}
+.tag.blug-tag span {
+  color: #3f67ba;
+}
 .tag .icon {
   width: 2.6rem;
   height: 2.6rem;
   background: rgba(194, 0, 0, 0.12);
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+}
+.tag span {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: #c20001;
+}
+
+.search {
+  background: #fff;
+  border-radius: 12.2rem;
+  width: 100%;
+  max-width: 40.3rem;
+  height: 5.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 2.5rem;
+  padding-right: 0.7rem;
+}
+.search input[type=text] {
+  border: 0;
+  outline: none;
+  width: 80%;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: #a0afba;
+}
+.search input[type=text]::-webkit-input-placeholder {
+  color: #a0afba;
+}
+.search input[type=text]::-moz-placeholder {
+  color: #a0afba;
+}
+.search input[type=text]:-ms-input-placeholder {
+  color: #a0afba;
+}
+.search input[type=text]::-ms-input-placeholder {
+  color: #a0afba;
+}
+.search input[type=text]::placeholder {
+  color: #a0afba;
+}
+.search button {
+  width: 4.2rem;
+  height: 4.2rem;
+  background: rgba(158, 185, 225, 0.1);
+  border-radius: 50%;
+  border: 1px solid transparent;
+  -webkit-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.search button:hover {
+  border-color: #3f67ba;
+}
+
+.typer-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.6;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.typer-filter:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
+}
+.typer-filter .icon {
+  width: 2.8rem;
+  height: 2.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+.typer-filter span {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+.typer-filter.ghost span {
+  color: #616eb7;
+}
+.typer-filter.bug span {
+  color: var(--type-bug);
+}
+.typer-filter.dark span {
+  color: var(--type-dark);
+}
+.typer-filter.dragon span {
+  color: var(--type-dragon);
+}
+.typer-filter.electric span {
+  color: var(--type-electric);
+}
+.typer-filter.fairy span {
+  color: var(--type-fairy);
+}
+.typer-filter.fighting span {
+  color: var(--type-fighting);
+}
+.typer-filter.ground span {
+  color: var(--type-ground);
+}
+.typer-filter.ice span {
+  color: var(--type-ice);
+}
+.typer-filter.normal span {
+  color: var(--type-normal);
+}
+.typer-filter.poison span {
+  color: var(--type-poison);
+}
+.typer-filter.psychic span {
+  color: var(--type-psychic);
+}
+.typer-filter.rock span {
+  color: var(--type-rock);
+}
+.typer-filter.ghost span {
+  color: var(--type-ghost);
+}
+.typer-filter.grass span {
+  color: var(--type-grass);
+}
+.typer-filter.steel span {
+  color: var(--type-steel);
+}
+.typer-filter.water span {
+  color: var(--type-water);
+}
+.typer-filter.fire span {
+  color: var(--type-fire);
+}
+.typer-filter.flying span {
+  color: var(--type-flying);
 }
 
 h1,
